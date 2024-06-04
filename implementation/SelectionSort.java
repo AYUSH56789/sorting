@@ -1,9 +1,11 @@
+// Selection Sort= Select Min + Swap
 public class SelectionSort{
     // select min from unsorted array
     public static int select(int arr[],int i){
         int min=i;
         for (int j = i; j <= arr.length-1; j++) {
-            // this condition sort array in ascending order,[for descending order arr[j]>arr[min] ].
+            // this condition sort array in ascending order,[for descending order arr[j]>arr[min] ].cls
+
             if(arr[j]<arr[min]){
                 min=j;
             }

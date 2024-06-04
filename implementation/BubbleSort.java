@@ -2,7 +2,8 @@
 public class BubbleSort {
     public static void bubbleSort(int arr[]){
         for (int i = arr.length-1; i >= 1; i--) {
-            int didSwap=0; //this variable is used to count is swaping is perform or not.
+            //this variable is used to count is swaping is perform or not.
+            int didSwap=0; 
             for (int j = 0; j < i; j++) {
                 // this condition sort array in ascending order,[for descending order arr[j]<arr[j+1] ].
                 if(arr[j]>arr[j+1]){
@@ -10,7 +11,7 @@ public class BubbleSort {
                     int temp=arr[j];
                     arr[j]=arr[j+1];
                     arr[j+1]=temp;
-                    // increment didSwap variable by one .
+                    // increment didSwap by one .
                     didSwap++;
                 }
             }
@@ -22,7 +23,7 @@ public class BubbleSort {
     }
     public static void main(String[] args) {
         int arr[]={1,2,3,1,3,2,13};
-        // call selection sort;
+        // call bubble sort;
         bubbleSort(arr);
         // print array 
         for (int i = 0; i < arr.length; i++) {

@@ -1,14 +1,17 @@
 public class SelectionSort{
-    // select min
+    // select min from unsorted array
     public static int select(int arr[],int i){
         int min=i;
         for (int j = i; j <= arr.length-1; j++) {
+            // this condition sort array in ascending order,[for descending order arr[j]>arr[min] ].
             if(arr[j]<arr[min]){
                 min=j;
             }
         }
         return min;
     }
+
+    // selection sort algorithm :
     public static void selectionSort(int arr[]){
         for (int i = 0; i <= arr.length-2; i++) {
             // select min
@@ -23,6 +26,7 @@ public class SelectionSort{
         int arr[]={1,2,3,1,3,2,13};
         // call selection sort;
         selectionSort(arr);
+        // print array 
         for (int i = 0; i < arr.length; i++) {
             System.out.print(arr[i]+" ");
         }

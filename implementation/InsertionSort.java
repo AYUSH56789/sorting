@@ -1,4 +1,4 @@
-// insertion sort : take element from the array and place on the correct position
+// insertion sort : take element from the array and place on the correct position on the left
 public class InsertionSort {
     public static void insertionSort(int arr[]){
         for(int i=0;i<=arr.length-1;i++){

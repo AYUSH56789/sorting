@@ -4,7 +4,7 @@ public class SelectionSort{
     public static int select(int arr[],int i){
         int min=i;
         for (int j = i; j <= arr.length-1; j++) {
-            // this condition sort array in ascending order,[for descending order arr[j]>arr[min] ].cls
+            // this condition sort array in ascending order,[for descending order arr[j]>arr[min] ].
 
             if(arr[j]<arr[min]){
                 min=j;

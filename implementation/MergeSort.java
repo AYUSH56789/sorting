@@ -67,4 +67,4 @@ public class MergeSort {
 
 // input:1 2 3 1 3 2 13
 // output:1 1 2 2 3 3 13 
-// time complexity: O(N^2) -> for best case, average case, worst case time complexity
+// time complexity: O(NlogN) -> for best case, average case, worst case time complexity

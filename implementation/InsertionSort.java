@@ -17,8 +17,8 @@ public class InsertionSort {
         }
     }
     public static void main(String[] args) {
-        int arr[]={1,2,3,1,3,2,13};
-        // call selection sort;
+        int arr[]={24 ,18 ,38 ,43 ,14 ,40 ,1 ,54};
+        // call insertion sort;
         insertionSort(arr);
         // print array 
         for (int i = 0; i < arr.length; i++) {
